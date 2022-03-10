@@ -1,0 +1,13 @@
+<p>dwt works!</p>
+<select [(ngModel)]="currentDevice" id="cameraSelect">
+  <option value="">Choose a camera </option>
+</select>
+<button (click)="initCameras()">Init Cameras</button>
+<button (click)="acquireImage()">Acquire Image</button>
+<button (click)="playVideo()">Test Button</button>
+<button (click)="captureImage()">Capture Image</button>
+<button (click)="loadFile()">Open File..</button>
+<button (click)="showEditor()">Show Editor..</button>
+<button (click)="zoomIn()">Zoom In..</button>
+<button (click)="zoomOut()">Zoom out..</button>
+<div id="dwtcontrolContainer"></div>
